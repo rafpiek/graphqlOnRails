@@ -6,6 +6,7 @@ module Types
     root_type.fields = Util::FieldCombiner.combine([
       Mutations::TodoListMutation,
       Mutations::ItemMutation
+      Mutations::UserMutation
     ])
   end
 end
